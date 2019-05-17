@@ -13,6 +13,8 @@ import { RegisterComponent } from './login/register.component';
 // modulos
 import { PagesModule } from './pages/pages.module';
 
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     PagesModule,
+    FormsModule,
     APP_ROUTES
   ],
   providers: [],
